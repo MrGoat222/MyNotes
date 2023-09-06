@@ -2,29 +2,30 @@ public static class MyNotes
 {
     public static string VariablesPageOne =
 @"...
-In the vast savannah of computer memory, a remarkable phenomenon occurs. 
-Behold, the magnificent 'variables' – they are the vessels of information, the heart of computation. 
-They bear names, bestowed upon them with care, starting only with letters or the humble underscore. 
-But tread with caution, for certain names are forbidden, like 'int', 'string', and 'bool'. 
-With the gentle touch of the '=' operator, values are imbued unto these variables. 
-And lo, their types can be declared, like incantations, as in 'type variableName = value;'. 
-Observe: 
- int age = 32;
- string name = ""Jesper"";
+Hvis du vil vide hvordan forskellige variabler fungere så er du på den rigtige side.
+Variabler er et sted hvor man opbevarer forskellige former for data.
+Det kan være tal uden komma tal også kendt som en interger aka int.
+Det kan være en string, som er bokstaver.
+Det kan være tal med komma tal, float.
+Og det kan være en bool som kan være sand eller falsk.
+
+Eksempler
+ int age = 18;
+ string name = ""Anton, Alexander"";
  float awesomeLevel = 99.9f;
- bool TooCoolForSchool = false;
+ bool TooCoolForSchool = true;
 ";
 
     public static string VariablesPageTwo =
 @"...
-So often used without consideration for its magnificence, the humble 'variable' is the heart of computation. 
-It can be used to store and manipulate data, and is the backbone of all computer programs. 
-The 'variable' is a named container for a value, and can be of different types. 
-The type of a variable determines what kind of value it can hold, and what kind of operations can be performed on it. 
-There are many different types of variables, but the most common ones are 'int', 'string', 'float', and 'bool'. 
-An 'int' is a whole number, like 1, 2, 3, 4, 5, 6, 7, 8, 9, 0. 
-A 'string' is a sequence of characters, like ""Hello World"", ""I am a string"", and ""C# is awesome"". 
-A 'float' is a decimal number, like 1.234, 5.678, and 9.101112. 
-A 'bool' is a true or false value, like true and false. ";
-
+Variabler er den mest grundlæggende del af kode som du kommer til at lære om.
+De hjælper med at holde styr på store mængder af data som beskriver forskellige ting.
+For eksempel så er denne tekst gemt i en 'string' som vi kan printe på hvillket som helst tidspunkt.
+Lad os så gå over de forskellige variabler og deres funktion med nogle eksempler.
+En 'int' kan være hvilket som helst hel tal, dvs. (1,2,3,4,5,6,7,8,9,10) osv.
+En 'string' kan være hvilket som helst tekst, dvs. (Jeg har en rumraket i min have)
+I en 'string' skal der være gåseøjne før du kan starte den tekst.
+En 'float' kan være hvilket som helst komma tal, dvs. (1,645984. 98,5165) osv.
+En 'bool' kan være true eller false dvs. (Er vi TooCoolForSchool?) True/False.
+";
 }
