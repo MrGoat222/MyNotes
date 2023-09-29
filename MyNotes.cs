@@ -28,4 +28,45 @@ I en 'string' skal der være gåseøjne før du kan starte den tekst.
 En 'float' kan være hvilket som helst komma tal, dvs. (1,645984. 98,5165) osv.
 En 'bool' kan være true eller false dvs. (Er vi TooCoolForSchool?) True/False.
 ";
+
+
+//Loops
+public static string LoopsPageOne =
+@"...
+Loops er en funktion som får en variabel eller lign. til at gøre gentagende gange.
+Der er 4 forskellige loops som du skal kende til de er.
+While loop som gør noget mens et givent kriterie er opfyldt
+For loop som gør noget flere gange med en specifik variabel eller lign.
+Do while loop som gør noget hvis et Do loop er opfyldt og derefter køre den så sit while loop.
+Nested loop som bruges når du vil have et loop inde i et andet loop.
+På side 2 vil der være nogle eksempler.";
+
+public static string LoopsPageTwo =
+@"...
+Eksempler.
+While loop while(xxx = true){
+    Console.WriteLine('True')
+};
+Så længe vores bool xxx = true vil den skrive true i terminalen.
+--------------------------------------------------------------------------------------
+For loop 
+for (int i = 1; i <= 10; i++)
+{
+    Console.Wirteline(i);
+}
+--------------------------------------------------------------------------------------
+do {
+    Console.WriteLine('True') 
+} while (xxx = true);
+
+Do while loop først har vi aktionen og derefter kommer betingelserne.
+Forskellen på et Do while loop og et while loop er at den i vores eksempel vil altid 
+starte med at printe 'true' i konsolen ligemeget om xxx er sand eller falsk.
+
+Nested loop
+
+for(int)
+
+Så længe tallet ikke er 10 dvs. er mindre end 10 så ville loopet bilve ved med at køre. Den 
+";
 }

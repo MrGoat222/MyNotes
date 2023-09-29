@@ -1,19 +1,27 @@
 ﻿//Laver bogen
 Book book = new Book("Programming notes");
 List<Chapter> chapters = new List<Chapter>();
+
 //Definere kapiteler
-Chapter variablesChapter = new Chapter("Variabler");
+Chapter variablesChapter = new Chapter("Variables");
+Chapter LoopsChapter = new Chapter("Loops");
+
 //Laver et nyt kaptitel
 chapters.Add(variablesChapter);
+chapters.Add(LoopsChapter);
 //Beskriver liste hvor du kan lave nogle sider.
 List<Page> variablesPages = new List<Page>(){
     new Page(MyNotes.VariablesPageOne),
     new Page(MyNotes.VariablesPageTwo)
 };
-
+List<Page> LoopsPages = new List<Page>(){
+    new Page(MyNotes.LoopsPageOne),
+    new Page(MyNotes.LoopsPageTwo)
+};
 
 variablesChapter.Pages = variablesPages;
 book.Chapters = chapters;
+LoopsChapter.Pages = LoopsPages;
 //starter bogen.
 book.Start();
 
